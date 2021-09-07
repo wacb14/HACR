@@ -1,0 +1,440 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #ebf1fb;
+    margin-top: 55px;
+}
+
+/* Titulo de secciones */
+h3 {
+    font-weight: bold;
+    text-align: center;
+    color: #082881;
+    margin-bottom: 20px;
+}
+
+/* Subtitulo de secciones */
+h4 {
+    color: #082881;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ////MENU//// */
+.navbar {
+    background-color: #213162;
+    padding: 5px;
+}
+
+/* Cuadro de submenu */
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.95);
+    /* background-color:rgb(30, 144, 255, 0.8); */
+    color: #333333;
+    border-radius: 0 0 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    border-bottom: gold solid 5px;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px dotted rgba(0, 110, 255, 0.1);
+}
+
+.dropdown-menu li a:hover {
+    background-color:rgb(8, 40, 129, 0.15);
+    color: #082881;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    /* border-bottom: #0099ff solid 1px; */
+}
+
+.active {
+    font-weight: bold;
+    /* border-bottom: rgb(0, 153, 255, 0.3) solid 1px; */
+    /* background-color:rgb(0, 153, 255, 0.1) ; */
+    border-radius: 5%;
+    color: #0099ff;
+    padding: 7px;
+}
+
+i { /* iconos de flecha  */
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* ///BANNER INFORMATIVO/// */
+.carousel-inner {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /* ///SECCION COVID//// */
+.container-covid {
+    background-color: #ffffff;
+}
+
+.container-covid img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container-covid article {
+    padding: 30px 0
+}
+
+.container-covid h4 {
+    font-weight: bold;
+    color:#082881;
+    margin-bottom: 20px;
+}
+
+.container-covid article p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    padding-right:20px;
+}
+
+.contenedor-act-covid {
+    background-image: url(../imagenes/fnd_covid.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-act-covid h4 {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.contenedor-act-covid h1 {
+    font-weight: 800;
+
+}
+/* ... */
+.act-covid-caja {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px 15px 5px 5px;
+    padding: 15px 0 0 0;
+
+}
+.act-covid-caja:hover {
+    background-color: #082881;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.act-covid-contenido {
+    height: 100px;
+    background-color: #333333;
+    padding: 30px 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    /* transition: 5s ease all; */
+
+}
+
+.act-covid-caja:hover .act-covid-contenido {
+    background-color: #082881;
+    display: flex;
+    align-items: flex-start;
+    /* top: -20px; */
+
+}
+
+ /* ///SECCION NOTICIAS//// */
+.noticias {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    background-color: #ebf1fb;
+}
+
+.caj-noticias {
+    background-color:#ffffff;;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    /* box-shadow: #a7a7a7 1px 1px 3px; */
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.caj-noticias:hover {
+	box-shadow: #afc4fc 0px 0px 15px;
+}
+
+.caj-noticias:hover .noticia-btn {
+    background-color: #082881;
+    font-style: italic;
+    border: 2px solid #082881;
+	/* box-shadow: #3057c4 0px 1px 1px; */
+}
+
+.caj-noticias img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.caj-noticias hr {
+    color: #082881;
+}
+
+.caj-noticias article {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.noticias-titulo  {
+    font-weight: bold;
+    font-size: 14px;
+    color: #082881;
+    margin-bottom: -10px;
+}
+
+.noticia-btn {
+    float: right;
+	border:none;
+	padding: 6px 30px;
+	border-radius: 20px;
+	background-color: #333333;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+	transition: .5s ease all;
+}
+
+ /* ///SECCION INFO DIRECTOR//// */
+ .info_direct {
+    display: inline-block;
+    text-align: center;
+    /* background-color: rgba(18, 5, 133, 0.04); */
+    background-color: rgb(8, 40, 129, 0.1);
+    padding: 20px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #082881;
+}
+
+.info_direct img {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 40px 20px 0 20px;
+    margin-bottom: 0;
+}
+
+.info_direct p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: rgb(8, 40, 129, 0.9);
+    padding:2px
+}
+
+.info_direct h6 {
+    font-weight: 700;
+}
+
+.datos-direct {
+    width: 80%;
+    margin:auto;
+    padding: 20px 20px 10px 20px;
+    border-radius: 0 0 3px 3px;
+    background-color: rgba(255, 255, 255);
+}
+
+/* ///SECCION fb/// */
+.contenedor-fb {
+
+    /* background-color: chocolate; */
+    padding: 80px 0 0 0;
+}
+
+.iframe-fb {
+    /* float: right; */
+    border: 2px solid yellow
+}
+
+
+
+
+/* ///SECCION SERVICIO/// */
+.contenedor-servicios {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contenedor-servicios img {
+    width: 90%;
+    padding: 20px 0 0 0;
+    /* background-color: #dbe5ff; */
+}
+
+.caja-servicios {
+    width: 100%;
+    /* background-color: #afc4fc; */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.servicio-titulo {
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+/* //SECCION VIDEOS// */
+.contenedor-videos {
+    color: #fbfbfb;
+    padding:40px;
+    /* background-color: #333333; */
+    /* background-image: radial-gradient(circle at 74.18% 116.45%, #c9f4ff 0, #8dd6fe 25%, #3cb5f2 50%, #0094e6 75%, #0077db 100%);    margin-bottom: 10px; */
+    background-image: radial-gradient(circle at 85.36% 111.24%, #98e7ff 0, #3cb5f2 30%, #0085ce 100%);
+    margin-bottom: 0;
+
+}
+
+
+/* ///ENLACES DE INTERES/// */
+.contenedor-enlaces {
+    background-color: #ffffff;
+    /* background-image: url(../imagenes/fnd_covid.jpg); */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 50px;
+    /* padding-top: 10px;    */
+    /* padding: 100px;    */
+}
+
+
+.contenedor-enlaces img:hover{
+    background-color: #e9efff;
+    border-radius: 4px;
+}
+
+/* ///CONTACTOS Y UBCACION/// */
+.contenedor-ubicacion {
+    position: relative;
+}
+.caja-contactos {
+    position: absolute;
+    display:flex;
+    align-items: center;
+    background-color: rgb(8, 40, 129, 0.89);
+    top: 0;
+    bottom: 0;
+    padding: 50px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+
+.caja-contactos h5 {
+    /* background-color: #343a40; */
+    text-align: center;
+}
+
+.caja-contactos i {
+    font-size: 18px;
+    color: #0099ff;
+}
+
+.caja-contactos p {
+    margin-left: 25px;
+}
+
+/* ///PIE DE PAGINA/// */
+footer {
+    background-color: #343a40;
+    text-align: center;
+    padding: 20px 0;
+    color:#ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ///PAG MISION VISION/// */
+:root {
+    --altura_mivi: 400px;
+}
+.contenedor-mivi {
+    background-color:#333333;
+}
+
+.carta-box {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    height: var(--altura_mivi);
+    perspective: 1000px;
+    background-color: rgb(144, 146, 247);
+    overflow: hidden;
+  }
+
+    .carta-box:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+  .carta {
+    display:flex;
+    align-items: center;
+    /* background-color: #0081CF; */
+
+    background-image: url(../imagenes/HACRS.jpg);
+    background-size: cover;
+    background-position: center; 
+
+
+
+    
+    height: var(--altura_mivi);
+    transform-style: preserve-3d;
+    transition: all 0.12s linear;
+  }
+  
+  .cara {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .cara.detras {
+    display:flex;
+    align-items: center;
+    transform: rotateY(180deg);
+    background-color: #333333;
+    height: var(--altura_mivi);
+    color: #fafafafa;
+  }
